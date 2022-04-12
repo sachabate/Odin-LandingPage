@@ -1,2 +1,3 @@
 # Odin-LandingPage
-A Landing Page - see Odin Project
+
+This will be a simple landing page project completed as part of the Odin Project.
