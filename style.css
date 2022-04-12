@@ -78,12 +78,132 @@ ul {
     max-width: 500px;
 }
 
-button {
+.sign-up {
     background-color: #3882f6;
     color: white;
     font-weight: bold;
     border-radius: 5px;
     border: none;
-    padding: 8px 20px;
-    max-width: fit-content;
+    padding: 8px 30px;
+    width: fit-content;
+}
+
+.block-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 50px 0;
+}
+
+.tiles {
+    display: flex;
+    margin-bottom: 100px;
+    gap: 25px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.card .subtext {
+    text-align: center;
+    color: black;
+    margin: 10px 0;
+}
+
+.image-frame {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.block-three {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 200px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 800px;
+    margin: 150px 0;
+}
+
+.quote-credit {
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+    margin-top: -125px;
+    margin-bottom: 125px;
+}
+
+.block-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.prompt {
+    display: flex;
+    margin: 100px 200px;
+    flex: 1;
+    background-color: #3882f6;
+    border-radius: 15px;
+    border-style: none;
+    align-items: center;
+    padding: 50px 100px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.prompt-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.prompt .sign-up {
+    border: 2px solid #ffffff;
+
+}
+
+.minor-title {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.prompt .subtext {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.copyright {
+    color: white;
+    padding: 30px;
 }
