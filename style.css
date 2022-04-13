@@ -12,12 +12,18 @@ body {
     padding: 0 200px;
 }
 
+.header-background {
+    background-color: #1f2937;
+    justify-content: space-between;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
     font-size: 24px;
     align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .header-logo {
@@ -173,6 +179,7 @@ h2 {
     padding: 50px 100px;
     justify-content: space-between;
     gap: 30px;
+    max-width: 1000px;
 }
 
 .prompt-text {
