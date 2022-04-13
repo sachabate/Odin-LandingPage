@@ -181,6 +181,7 @@ h2 {
     padding: 50px 100px;
     justify-content: space-between;
     gap: 30px;
+    max-width: 1000px;
 }
 
 .prompt-text {
